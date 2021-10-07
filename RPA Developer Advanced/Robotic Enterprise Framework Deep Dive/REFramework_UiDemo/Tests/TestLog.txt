@@ -1,0 +1,20 @@
+﻿
+=================================================
+Starting new set of 8 tests at 12:13:28  PM, 07/10/2021
+=================================================
+12:13:32 PM	Test 1 PASS  ---> Framework\InitAllSettings.xaml
+
+=================================================
+Starting new set of 8 tests at 12:18:17  PM, 07/10/2021
+=================================================
+12:18:19 PM	Test 1 PASS  ---> Framework\InitAllSettings.xaml
+
+=================================================
+Starting new set of 8 tests at 12:19:57  PM, 07/10/2021
+=================================================
+12:19:59 PM	Test 1 PASS  ---> Framework\InitAllSettings.xaml
+
+=================================================
+Starting new set of 8 tests at 12:32:00  PM, 07/10/2021
+=================================================
+12:32:02 PM	Test 1 PASS  ---> Framework\InitAllSettings.xaml
