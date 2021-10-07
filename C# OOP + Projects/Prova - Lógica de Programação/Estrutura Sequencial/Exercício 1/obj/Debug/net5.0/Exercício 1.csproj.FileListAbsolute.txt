@@ -1,0 +1,16 @@
+D:\Cursos\C# OOP + Projects\Prova - Lógica de Programação\Estrutura Sequencial\Exercício 1\obj\Debug\net5.0\Exercício 1.csproj.AssemblyReference.cache
+D:\Cursos\C# OOP + Projects\Prova - Lógica de Programação\Estrutura Sequencial\Exercício 1\obj\Debug\net5.0\Exercício 1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Cursos\C# OOP + Projects\Prova - Lógica de Programação\Estrutura Sequencial\Exercício 1\obj\Debug\net5.0\Exercício 1.AssemblyInfoInputs.cache
+D:\Cursos\C# OOP + Projects\Prova - Lógica de Programação\Estrutura Sequencial\Exercício 1\obj\Debug\net5.0\Exercício 1.AssemblyInfo.cs
+D:\Cursos\C# OOP + Projects\Prova - Lógica de Programação\Estrutura Sequencial\Exercício 1\obj\Debug\net5.0\Exercício 1.csproj.CoreCompileInputs.cache
+D:\Cursos\C# OOP + Projects\Prova - Lógica de Programação\Estrutura Sequencial\Exercício 1\bin\Debug\net5.0\Exercício 1.exe
+D:\Cursos\C# OOP + Projects\Prova - Lógica de Programação\Estrutura Sequencial\Exercício 1\bin\Debug\net5.0\Exercício 1.deps.json
+D:\Cursos\C# OOP + Projects\Prova - Lógica de Programação\Estrutura Sequencial\Exercício 1\bin\Debug\net5.0\Exercício 1.runtimeconfig.json
+D:\Cursos\C# OOP + Projects\Prova - Lógica de Programação\Estrutura Sequencial\Exercício 1\bin\Debug\net5.0\Exercício 1.runtimeconfig.dev.json
+D:\Cursos\C# OOP + Projects\Prova - Lógica de Programação\Estrutura Sequencial\Exercício 1\bin\Debug\net5.0\Exercício 1.dll
+D:\Cursos\C# OOP + Projects\Prova - Lógica de Programação\Estrutura Sequencial\Exercício 1\bin\Debug\net5.0\ref\Exercício 1.dll
+D:\Cursos\C# OOP + Projects\Prova - Lógica de Programação\Estrutura Sequencial\Exercício 1\bin\Debug\net5.0\Exercício 1.pdb
+D:\Cursos\C# OOP + Projects\Prova - Lógica de Programação\Estrutura Sequencial\Exercício 1\obj\Debug\net5.0\Exercício 1.dll
+D:\Cursos\C# OOP + Projects\Prova - Lógica de Programação\Estrutura Sequencial\Exercício 1\obj\Debug\net5.0\ref\Exercício 1.dll
+D:\Cursos\C# OOP + Projects\Prova - Lógica de Programação\Estrutura Sequencial\Exercício 1\obj\Debug\net5.0\Exercício 1.pdb
+D:\Cursos\C# OOP + Projects\Prova - Lógica de Programação\Estrutura Sequencial\Exercício 1\obj\Debug\net5.0\Exercício 1.genruntimeconfig.cache

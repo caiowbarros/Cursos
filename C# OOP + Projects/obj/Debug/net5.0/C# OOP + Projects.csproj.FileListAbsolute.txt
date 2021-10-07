@@ -1,5 +1,0 @@
-D:\Cursos\C# OOP + Projects\obj\Debug\net5.0\C# OOP + Projects.csproj.AssemblyReference.cache
-D:\Cursos\C# OOP + Projects\obj\Debug\net5.0\C# OOP + Projects.GeneratedMSBuildEditorConfig.editorconfig
-D:\Cursos\C# OOP + Projects\obj\Debug\net5.0\C# OOP + Projects.AssemblyInfoInputs.cache
-D:\Cursos\C# OOP + Projects\obj\Debug\net5.0\C# OOP + Projects.AssemblyInfo.cs
-D:\Cursos\C# OOP + Projects\obj\Debug\net5.0\C# OOP + Projects.csproj.CoreCompileInputs.cache

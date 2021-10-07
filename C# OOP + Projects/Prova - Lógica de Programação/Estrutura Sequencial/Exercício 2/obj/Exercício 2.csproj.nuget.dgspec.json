@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Cursos\\C# OOP + Projects\\C# OOP + Projects.csproj": {}
+    "D:\\Cursos\\C# OOP + Projects\\Prova - Lógica de Programação\\Estrutura Sequencial\\Exercício 2\\Exercício 2.csproj": {}
   },
   "projects": {
-    "D:\\Cursos\\C# OOP + Projects\\C# OOP + Projects.csproj": {
+    "D:\\Cursos\\C# OOP + Projects\\Prova - Lógica de Programação\\Estrutura Sequencial\\Exercício 2\\Exercício 2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Cursos\\C# OOP + Projects\\C# OOP + Projects.csproj",
-        "projectName": "C# OOP + Projects",
-        "projectPath": "D:\\Cursos\\C# OOP + Projects\\C# OOP + Projects.csproj",
+        "projectUniqueName": "D:\\Cursos\\C# OOP + Projects\\Prova - Lógica de Programação\\Estrutura Sequencial\\Exercício 2\\Exercício 2.csproj",
+        "projectName": "Exercício 2",
+        "projectPath": "D:\\Cursos\\C# OOP + Projects\\Prova - Lógica de Programação\\Estrutura Sequencial\\Exercício 2\\Exercício 2.csproj",
         "packagesPath": "C:\\Users\\Caio\\.nuget\\packages\\",
-        "outputPath": "D:\\Cursos\\C# OOP + Projects\\obj\\",
+        "outputPath": "D:\\Cursos\\C# OOP + Projects\\Prova - Lógica de Programação\\Estrutura Sequencial\\Exercício 2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Caio\\AppData\\Roaming\\NuGet\\NuGet.Config"
