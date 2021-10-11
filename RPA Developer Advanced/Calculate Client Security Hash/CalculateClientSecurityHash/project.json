@@ -42,32 +42,52 @@
       {
         "editingStatus": "InProgress",
         "testCaseId": "3224facb-692c-49d3-8aca-eded40c6b497",
-        "fileName": "ACME System1\\ACME_Login_TestCase.xaml"
+        "fileName": "ACME System1\\Tests\\ACME_Login_TestCase.xaml"
       },
       {
         "editingStatus": "InProgress",
         "testCaseId": "fb791694-5b04-4bd1-bc85-2e2a49b1eb9a",
-        "fileName": "ACME System1\\ACME_Close_TestCase.xaml"
+        "fileName": "ACME System1\\Tests\\ACME_Close_TestCase.xaml"
       },
       {
         "editingStatus": "InProgress",
         "testCaseId": "5877d49b-ef0e-407c-bc93-80df98acbd3c",
-        "fileName": "SHA1 Online\\SHA1_Open_TestCase.xaml"
+        "fileName": "SHA1 Online\\Tests\\SHA1_Open_TestCase.xaml"
       },
       {
         "editingStatus": "InProgress",
         "testCaseId": "10bf84f7-db5f-45ce-b9a3-2a1816bc49f6",
-        "fileName": "SHA1 Online\\SHA1_Close_TestCase.xaml"
+        "fileName": "SHA1 Online\\Tests\\SHA1_Close_TestCase.xaml"
       },
       {
         "editingStatus": "InProgress",
         "testCaseId": "204e095c-37c5-43d4-9a72-5adde1a7ef2e",
-        "fileName": "ACME System1\\ACME_NavigateToWorkItems_TestCase.xaml"
+        "fileName": "ACME System1\\Tests\\ACME_NavigateToWorkItems_TestCase.xaml"
       },
       {
         "editingStatus": "InProgress",
         "testCaseId": "30b9ce41-6bb4-4697-9f7f-4112e893d725",
-        "fileName": "ACME System1\\ACME_ExtractWorkItems_TestCase.xaml"
+        "fileName": "ACME System1\\Tests\\ACME_ExtractWorkItems_TestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "4ab5e771-cb17-45b7-815b-4265b57ef0b2",
+        "fileName": "ACME System1\\Tests\\ACME_NavigateToWorkItemsDetails_TestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "71999271-d5c1-495d-b517-fa5bf5a1dc28",
+        "fileName": "ACME System1\\Tests\\ACME_ExtractClientInformation_TestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "5ff00d08-27b0-4ee1-8607-c8a79ed685ef",
+        "fileName": "SHA1 Online\\Tests\\SHA1_GetHashCode_TestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "614a58e5-c552-4d4a-bfbd-bc5a235df74a",
+        "fileName": "ACME System1\\Tests\\ACME_UpdateWorkItems_TestCase.xaml"
       }
     ],
     "modernBehavior": false

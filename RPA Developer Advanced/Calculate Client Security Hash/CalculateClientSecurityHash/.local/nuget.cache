@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4cFi7XoIMabKrt+l1Y44k88CHvkXV/Rgo0t1tRRqaD/UDipR2AL6kUGu2KN5sCDzBRo4Q0iYzv40AjOiMrc+xQ==",
+  "dgSpecHash": "+7ZcOdAneCsLJL8d6cim5hH4RxLafXhofblLpcP/aHR4Huc6MfT0QFz+70xzJEf/mKtVh8miwg/o7+EuYtbnHQ==",
   "success": true,
-  "projectFilePath": "D:\\Cursos\\RPA Developer Advanced\\Calculate Client Security Hash\\CalculateClientSecurityHash\\.local\\",
+  "projectFilePath": "C:\\Users\\Caio\\OneDrive - SMARTHIS CONSULTORIA EM TECNOLOGIA DA INFORMAÇÃO LTDA\\Documentos\\Cursos\\RPA Developer Advanced\\Calculate Client Security Hash\\CalculateClientSecurityHash\\.local\\",
   "expectedPackageFiles": [
     "C:\\Users\\Caio\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\Caio\\.nuget\\packages\\closedxml\\0.87.1\\closedxml.0.87.1.nupkg.sha512",
@@ -106,7 +106,7 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "filePath": "D:\\Cursos\\RPA Developer Advanced\\Calculate Client Security Hash\\CalculateClientSecurityHash\\.local",
+      "filePath": "C:\\Users\\Caio\\OneDrive - SMARTHIS CONSULTORIA EM TECNOLOGIA DA INFORMAÇÃO LTDA\\Documentos\\Cursos\\RPA Developer Advanced\\Calculate Client Security Hash\\CalculateClientSecurityHash\\.local",
       "message": "UiPath.Testing.Activities 1.4.2-preview depends on UiPath.Telemetry.Client (>= 1.5.1) but UiPath.Telemetry.Client 1.5.1 was not found. An approximate best match of UiPath.Telemetry.Client 1.5.3 was resolved.",
       "libraryId": "UiPath.Telemetry.Client",
       "targetGraphs": [
