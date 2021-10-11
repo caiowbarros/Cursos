@@ -1,0 +1,88 @@
+{
+  "name": "CalculateClientSecurityHash",
+  "description": "Assignment for the RPA Developer Advanced course",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Credentials.Activities": "[2.0.0]",
+    "UiPath.Excel.Activities": "[2.11.0-preview]",
+    "UiPath.Mail.Activities": "[1.12.0-preview]",
+    "UiPath.System.Activities": "[21.6.1-preview]",
+    "UiPath.Testing.Activities": "[1.4.2-preview]",
+    "UiPath.UIAutomation.Activities": "[21.6.1-preview]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "21.4.4.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "3224facb-692c-49d3-8aca-eded40c6b497",
+        "fileName": "ACME System1\\ACME_Login_TestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "fb791694-5b04-4bd1-bc85-2e2a49b1eb9a",
+        "fileName": "ACME System1\\ACME_Close_TestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "5877d49b-ef0e-407c-bc93-80df98acbd3c",
+        "fileName": "SHA1 Online\\SHA1_Open_TestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "10bf84f7-db5f-45ce-b9a3-2a1816bc49f6",
+        "fileName": "SHA1 Online\\SHA1_Close_TestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "204e095c-37c5-43d4-9a72-5adde1a7ef2e",
+        "fileName": "ACME System1\\ACME_NavigateToWorkItems_TestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "30b9ce41-6bb4-4697-9f7f-4112e893d725",
+        "fileName": "ACME System1\\ACME_ExtractWorkItems_TestCase.xaml"
+      }
+    ],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "63022371-f477-415d-8f75-71ed0a7adb63",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
