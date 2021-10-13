@@ -1,0 +1,16 @@
+C:\Users\Caio\OneDrive - SMARTHIS CONSULTORIA EM TECNOLOGIA DA INFORMAÇÃO LTDA\Documentos\Cursos\C# OOP + Projects\Exercícios 2 - Estrutura Condicional\Exercício 8\bin\Debug\net5.0\Exercício 8.exe
+C:\Users\Caio\OneDrive - SMARTHIS CONSULTORIA EM TECNOLOGIA DA INFORMAÇÃO LTDA\Documentos\Cursos\C# OOP + Projects\Exercícios 2 - Estrutura Condicional\Exercício 8\bin\Debug\net5.0\Exercício 8.deps.json
+C:\Users\Caio\OneDrive - SMARTHIS CONSULTORIA EM TECNOLOGIA DA INFORMAÇÃO LTDA\Documentos\Cursos\C# OOP + Projects\Exercícios 2 - Estrutura Condicional\Exercício 8\bin\Debug\net5.0\Exercício 8.runtimeconfig.json
+C:\Users\Caio\OneDrive - SMARTHIS CONSULTORIA EM TECNOLOGIA DA INFORMAÇÃO LTDA\Documentos\Cursos\C# OOP + Projects\Exercícios 2 - Estrutura Condicional\Exercício 8\bin\Debug\net5.0\Exercício 8.runtimeconfig.dev.json
+C:\Users\Caio\OneDrive - SMARTHIS CONSULTORIA EM TECNOLOGIA DA INFORMAÇÃO LTDA\Documentos\Cursos\C# OOP + Projects\Exercícios 2 - Estrutura Condicional\Exercício 8\bin\Debug\net5.0\Exercício 8.dll
+C:\Users\Caio\OneDrive - SMARTHIS CONSULTORIA EM TECNOLOGIA DA INFORMAÇÃO LTDA\Documentos\Cursos\C# OOP + Projects\Exercícios 2 - Estrutura Condicional\Exercício 8\bin\Debug\net5.0\ref\Exercício 8.dll
+C:\Users\Caio\OneDrive - SMARTHIS CONSULTORIA EM TECNOLOGIA DA INFORMAÇÃO LTDA\Documentos\Cursos\C# OOP + Projects\Exercícios 2 - Estrutura Condicional\Exercício 8\bin\Debug\net5.0\Exercício 8.pdb
+C:\Users\Caio\OneDrive - SMARTHIS CONSULTORIA EM TECNOLOGIA DA INFORMAÇÃO LTDA\Documentos\Cursos\C# OOP + Projects\Exercícios 2 - Estrutura Condicional\Exercício 8\obj\Debug\net5.0\Exercício 8.csproj.AssemblyReference.cache
+C:\Users\Caio\OneDrive - SMARTHIS CONSULTORIA EM TECNOLOGIA DA INFORMAÇÃO LTDA\Documentos\Cursos\C# OOP + Projects\Exercícios 2 - Estrutura Condicional\Exercício 8\obj\Debug\net5.0\Exercício 8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Caio\OneDrive - SMARTHIS CONSULTORIA EM TECNOLOGIA DA INFORMAÇÃO LTDA\Documentos\Cursos\C# OOP + Projects\Exercícios 2 - Estrutura Condicional\Exercício 8\obj\Debug\net5.0\Exercício 8.AssemblyInfoInputs.cache
+C:\Users\Caio\OneDrive - SMARTHIS CONSULTORIA EM TECNOLOGIA DA INFORMAÇÃO LTDA\Documentos\Cursos\C# OOP + Projects\Exercícios 2 - Estrutura Condicional\Exercício 8\obj\Debug\net5.0\Exercício 8.AssemblyInfo.cs
+C:\Users\Caio\OneDrive - SMARTHIS CONSULTORIA EM TECNOLOGIA DA INFORMAÇÃO LTDA\Documentos\Cursos\C# OOP + Projects\Exercícios 2 - Estrutura Condicional\Exercício 8\obj\Debug\net5.0\Exercício 8.csproj.CoreCompileInputs.cache
+C:\Users\Caio\OneDrive - SMARTHIS CONSULTORIA EM TECNOLOGIA DA INFORMAÇÃO LTDA\Documentos\Cursos\C# OOP + Projects\Exercícios 2 - Estrutura Condicional\Exercício 8\obj\Debug\net5.0\Exercício 8.dll
+C:\Users\Caio\OneDrive - SMARTHIS CONSULTORIA EM TECNOLOGIA DA INFORMAÇÃO LTDA\Documentos\Cursos\C# OOP + Projects\Exercícios 2 - Estrutura Condicional\Exercício 8\obj\Debug\net5.0\ref\Exercício 8.dll
+C:\Users\Caio\OneDrive - SMARTHIS CONSULTORIA EM TECNOLOGIA DA INFORMAÇÃO LTDA\Documentos\Cursos\C# OOP + Projects\Exercícios 2 - Estrutura Condicional\Exercício 8\obj\Debug\net5.0\Exercício 8.pdb
+C:\Users\Caio\OneDrive - SMARTHIS CONSULTORIA EM TECNOLOGIA DA INFORMAÇÃO LTDA\Documentos\Cursos\C# OOP + Projects\Exercícios 2 - Estrutura Condicional\Exercício 8\obj\Debug\net5.0\Exercício 8.genruntimeconfig.cache
