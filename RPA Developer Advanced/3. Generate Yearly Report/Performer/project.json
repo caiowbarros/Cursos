@@ -1,0 +1,121 @@
+{
+  "name": "Performer",
+  "description": "Performer for the Generate Yearly Report assignment",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Credentials.Activities": "[2.0.0]",
+    "UiPath.Excel.Activities": "[2.11.3]",
+    "UiPath.Mail.Activities": "[1.12.1]",
+    "UiPath.System.Activities": "[21.10.0]",
+    "UiPath.Testing.Activities": "[1.4.2]",
+    "UiPath.UIAutomation.Activities": "[21.10.1]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "21.10.0.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "175d4d85-edff-4df4-b394-8e17cd682279",
+        "dataVariationFilePath": ".variations\\Tests_Tests.json",
+        "fileName": "Tests\\GeneralTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "3bd6c946-ca66-4a6d-9da7-324472f8f8f1",
+        "fileName": "Tests\\GetTransactionDataTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "fe9ab25a-934a-4744-bf4e-8bae6deb60d2",
+        "fileName": "Tests\\InitAllApplicationsTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "6c269bd3-a7cd-4fbc-b246-44b1f410120f",
+        "fileName": "Tests\\InitAllSettingsTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "5c69b0ac-cd69-4ea4-b243-d567831eb416",
+        "fileName": "Tests\\MainTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "7cf6f733-56e4-4151-8bd0-e4fd668dd725",
+        "fileName": "Tests\\ProcessTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "7f3cd4f2-cd53-437c-a99e-1d821e6592b0",
+        "fileName": "Tests\\WorkflowTestCaseTemplate.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "7708ff71-59cd-4ffa-98fa-39ace6f9d66a",
+        "fileName": "Tests\\ACME_ExtractVendorInformationTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "0490f83f-601f-4245-9df4-a2ac50ab99b5",
+        "fileName": "Tests\\ACME_NavigateToDashboardTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "153e60c6-78a5-4937-be37-967ce5ad571a",
+        "fileName": "Tests\\ACME_NavigateToMonthlyReportTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "171670ee-8653-4e3e-9235-778d57279fbf",
+        "fileName": "Tests\\ACME_CreateYearlyReportTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "031f5eba-3499-4108-b1bb-fe4342d1f8ba",
+        "fileName": "Tests\\ACME_NavigateToUploadYearlyReportTestCase.xaml"
+      }
+    ],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "5f6eb643-2b1d-44a7-8856-b63b27fa6d6b",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
