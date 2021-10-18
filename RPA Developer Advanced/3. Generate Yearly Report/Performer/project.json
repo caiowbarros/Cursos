@@ -101,6 +101,11 @@
         "editingStatus": "InProgress",
         "testCaseId": "031f5eba-3499-4108-b1bb-fe4342d1f8ba",
         "fileName": "Tests\\ACME_NavigateToUploadYearlyReportTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "aef9e028-a260-400f-b958-0ef2ed7fe8e3",
+        "fileName": "Tests\\ACME_UploadYearlyReportTestCase.xaml"
       }
     ],
     "modernBehavior": false
