@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "AQrKrllSmt2g13c7BQ4TW9Fc9qJtOY+la2DE4D4ovgSrgRVMT1BxZ4hmjNtMXrVdVrO26vic2ydRrbGufYMt+A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Caio\\Downloads\\EnterUserData\\.local\\",
+  "expectedPackageFiles": [
+    "C:\\Users\\Caio\\.nuget\\packages\\avalonedit\\5.0.3\\avalonedit.5.0.3.nupkg.sha512",
+    "C:\\Users\\Caio\\.nuget\\packages\\closedxml\\0.87.1\\closedxml.0.87.1.nupkg.sha512",
+    "C:\\Users\\Caio\\.nuget\\packages\\csvhelper\\2.13.5\\csvhelper.2.13.5.nupkg.sha512",
+    "C:\\Users\\Caio\\.nuget\\packages\\documentformat.openxml\\2.5.0\\documentformat.openxml.2.5.0.nupkg.sha512",
+    "C:\\Users\\Caio\\.nuget\\packages\\extended.wpf.toolkit\\2.8.0\\extended.wpf.toolkit.2.8.0.nupkg.sha512",
+    "C:\\Users\\Caio\\.nuget\\packages\\humanizer.core\\2.4.2\\humanizer.core.2.4.2.nupkg.sha512",
+    "C:\\Users\\Caio\\.nuget\\packages\\microsoft.aspnet.signalr.client\\2.4.0\\microsoft.aspnet.signalr.client.2.4.0.nupkg.sha512",
+    "C:\\Users\\Caio\\.nuget\\packages\\microsoft.rest.clientruntime\\2.3.20\\microsoft.rest.clientruntime.2.3.20.nupkg.sha512",
+    "C:\\Users\\Caio\\.nuget\\packages\\microsoft.visualstudio.ole.interop\\7.10.6071\\microsoft.visualstudio.ole.interop.7.10.6071.nupkg.sha512",
+    "C:\\Users\\Caio\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Users\\Caio\\.nuget\\packages\\npoi\\2.4.1\\npoi.2.4.1.nupkg.sha512",
+    "C:\\Users\\Caio\\.nuget\\packages\\sharpziplib\\1.0.0\\sharpziplib.1.0.0.nupkg.sha512",
+    "C:\\Users\\Caio\\.nuget\\packages\\uipath\\19.10.7243.31457\\uipath.19.10.7243.31457.nupkg.sha512",
+    "C:\\Users\\Caio\\.nuget\\packages\\uipath.excel.activities\\2.7.2\\uipath.excel.activities.2.7.2.nupkg.sha512",
+    "C:\\Users\\Caio\\.nuget\\packages\\uipath.ocr.contracts\\2.2.1\\uipath.ocr.contracts.2.2.1.nupkg.sha512",
+    "C:\\Users\\Caio\\.nuget\\packages\\uipath.system.activities\\19.10.1\\uipath.system.activities.19.10.1.nupkg.sha512",
+    "C:\\Users\\Caio\\.nuget\\packages\\uipath.uiautomation.activities\\19.10.1\\uipath.uiautomation.activities.19.10.1.nupkg.sha512",
+    "C:\\Users\\Caio\\.nuget\\packages\\uipath.vision\\1.8.1\\uipath.vision.1.8.1.nupkg.sha512"
+  ],
+  "logs": []
+}
