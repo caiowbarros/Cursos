@@ -1,0 +1,16 @@
+C:\Users\Caio\OneDrive - SMARTHIS CONSULTORIA EM TECNOLOGIA DA INFORMAÇÃO LTDA\Documentos\Cursos\C# OOP + Projects\5\Exercício de fixação\obj\Debug\net5.0\Exercício de fixação.csproj.AssemblyReference.cache
+C:\Users\Caio\OneDrive - SMARTHIS CONSULTORIA EM TECNOLOGIA DA INFORMAÇÃO LTDA\Documentos\Cursos\C# OOP + Projects\5\Exercício de fixação\obj\Debug\net5.0\Exercício de fixação.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Caio\OneDrive - SMARTHIS CONSULTORIA EM TECNOLOGIA DA INFORMAÇÃO LTDA\Documentos\Cursos\C# OOP + Projects\5\Exercício de fixação\obj\Debug\net5.0\Exercício de fixação.AssemblyInfoInputs.cache
+C:\Users\Caio\OneDrive - SMARTHIS CONSULTORIA EM TECNOLOGIA DA INFORMAÇÃO LTDA\Documentos\Cursos\C# OOP + Projects\5\Exercício de fixação\obj\Debug\net5.0\Exercício de fixação.AssemblyInfo.cs
+C:\Users\Caio\OneDrive - SMARTHIS CONSULTORIA EM TECNOLOGIA DA INFORMAÇÃO LTDA\Documentos\Cursos\C# OOP + Projects\5\Exercício de fixação\obj\Debug\net5.0\Exercício de fixação.csproj.CoreCompileInputs.cache
+C:\Users\Caio\OneDrive - SMARTHIS CONSULTORIA EM TECNOLOGIA DA INFORMAÇÃO LTDA\Documentos\Cursos\C# OOP + Projects\5\Exercício de fixação\bin\Debug\net5.0\Exercício de fixação.exe
+C:\Users\Caio\OneDrive - SMARTHIS CONSULTORIA EM TECNOLOGIA DA INFORMAÇÃO LTDA\Documentos\Cursos\C# OOP + Projects\5\Exercício de fixação\bin\Debug\net5.0\Exercício de fixação.deps.json
+C:\Users\Caio\OneDrive - SMARTHIS CONSULTORIA EM TECNOLOGIA DA INFORMAÇÃO LTDA\Documentos\Cursos\C# OOP + Projects\5\Exercício de fixação\bin\Debug\net5.0\Exercício de fixação.runtimeconfig.json
+C:\Users\Caio\OneDrive - SMARTHIS CONSULTORIA EM TECNOLOGIA DA INFORMAÇÃO LTDA\Documentos\Cursos\C# OOP + Projects\5\Exercício de fixação\bin\Debug\net5.0\Exercício de fixação.runtimeconfig.dev.json
+C:\Users\Caio\OneDrive - SMARTHIS CONSULTORIA EM TECNOLOGIA DA INFORMAÇÃO LTDA\Documentos\Cursos\C# OOP + Projects\5\Exercício de fixação\bin\Debug\net5.0\Exercício de fixação.dll
+C:\Users\Caio\OneDrive - SMARTHIS CONSULTORIA EM TECNOLOGIA DA INFORMAÇÃO LTDA\Documentos\Cursos\C# OOP + Projects\5\Exercício de fixação\bin\Debug\net5.0\ref\Exercício de fixação.dll
+C:\Users\Caio\OneDrive - SMARTHIS CONSULTORIA EM TECNOLOGIA DA INFORMAÇÃO LTDA\Documentos\Cursos\C# OOP + Projects\5\Exercício de fixação\bin\Debug\net5.0\Exercício de fixação.pdb
+C:\Users\Caio\OneDrive - SMARTHIS CONSULTORIA EM TECNOLOGIA DA INFORMAÇÃO LTDA\Documentos\Cursos\C# OOP + Projects\5\Exercício de fixação\obj\Debug\net5.0\Exercício de fixação.dll
+C:\Users\Caio\OneDrive - SMARTHIS CONSULTORIA EM TECNOLOGIA DA INFORMAÇÃO LTDA\Documentos\Cursos\C# OOP + Projects\5\Exercício de fixação\obj\Debug\net5.0\ref\Exercício de fixação.dll
+C:\Users\Caio\OneDrive - SMARTHIS CONSULTORIA EM TECNOLOGIA DA INFORMAÇÃO LTDA\Documentos\Cursos\C# OOP + Projects\5\Exercício de fixação\obj\Debug\net5.0\Exercício de fixação.pdb
+C:\Users\Caio\OneDrive - SMARTHIS CONSULTORIA EM TECNOLOGIA DA INFORMAÇÃO LTDA\Documentos\Cursos\C# OOP + Projects\5\Exercício de fixação\obj\Debug\net5.0\Exercício de fixação.genruntimeconfig.cache
