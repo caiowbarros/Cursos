@@ -1,0 +1,16 @@
+﻿{
+  "Id": "Wsgs5Dh_e0C36Hj6J6fOQw",
+  "Reference": "Jr81WNnVmEKMLmT0vZ9D8A/Wsgs5Dh_e0C36Hj6J6fOQw",
+  "ParentRef": "Jr81WNnVmEKMLmT0vZ9D8A/4Me8-1xdT0exWSkmZB4_QA",
+  "Name": "DetailsButton",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Created": "2021-10-22T17:50:09.3648458Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-10-22T18:26:14.1293675Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

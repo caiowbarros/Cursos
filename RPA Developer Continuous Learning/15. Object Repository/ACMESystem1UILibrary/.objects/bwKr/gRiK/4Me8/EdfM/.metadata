@@ -1,0 +1,16 @@
+﻿{
+  "Id": "EdfMyDYz1EWZYBp7Ei3r2g",
+  "Reference": "Jr81WNnVmEKMLmT0vZ9D8A/EdfMyDYz1EWZYBp7Ei3r2g",
+  "ParentRef": "Jr81WNnVmEKMLmT0vZ9D8A/4Me8-1xdT0exWSkmZB4_QA",
+  "Name": "Log Out",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Created": "2021-10-22T15:57:20.2158791Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-10-22T18:25:15.688253Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

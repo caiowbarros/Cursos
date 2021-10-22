@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://acme-test.uipath.com/work-items" ContentHash="9oJfm06TlE-LJtmFiO_okg" DesignTimeRectangle="222, 465, 16, 16" ElementType="InputBox" FriendlyName="'I'" FullSelectorArgument="&lt;webctrl tableCol='1' tableRow='2' tag='I' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' aaname='' tag='I' /&gt;" Guid="e007a7c3-fdba-4ee8-a13a-75d3491f74d6" Reference="Jr81WNnVmEKMLmT0vZ9D8A/Wsgs5Dh_e0C36Hj6J6fOQw" ScopeSelectorArgument="&lt;html title='ACME System 1 - Work Items' /&gt;" SearchSteps="Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="301, 454, 137, 39" ElementType="Text" FriendlyName="'75375072'" FullSelectorArgument="[String.Format(&quot;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tableCol='2' tableRow='2' tag='TD' aaname='{0}' /&gt;&quot;, WorkItemID)]" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' aaname='75375072' tag='TD' check:text='75375072' /&gt;" SearchSteps="Selector">
+        <imageRef attrName="ImageBase64" xmlns="">1kgywtwo8OECSANetgfVUGA</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0pJqrEBIfvUC_CKOneq0Z4g</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="4a5f4783057dace797fdec4a0754ae9f.png" xmlns="">0KS-ExIQ7JEW61RimiqRlDQ</imageRef>
+</TargetAnchorable>
