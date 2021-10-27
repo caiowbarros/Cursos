@@ -1,4 +1,23 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1208,1669" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:si="clr-namespace:System.IO;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:si="clr-namespace:System.IO;assembly=mscorlib" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="OutgoingFolder" Type="InArgument(x:String)" />
+    <x:Property Name="EmailRecipients" Type="InArgument(x:String)" />
+    <x:Property Name="DownloadsFolder" Type="InArgument(x:String)" />
+  </x:Members>
+  <this:Main.OutgoingFolder>
+    <InArgument x:TypeArguments="x:String" />
+  </this:Main.OutgoingFolder>
+  <this:Main.EmailRecipients>
+    <InArgument x:TypeArguments="x:String" />
+  </this:Main.EmailRecipients>
+  <this:Main.DownloadsFolder>
+    <InArgument x:TypeArguments="x:String" />
+  </this:Main.DownloadsFolder>
+  <mva:VisualBasic.Settings>
+    <x:Null />
+  </mva:VisualBasic.Settings>
+  <sap:VirtualizedContainerService.HintSize>1208,1669</sap:VirtualizedContainerService.HintSize>
+  <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="28">
       <x:String>System.Activities</x:String>
@@ -60,16 +79,12 @@
       <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
       <AssemblyReference>System.ServiceModel</AssemblyReference>
       <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
-      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
   <Sequence DisplayName="Register Bank Accounts" sap:VirtualizedContainerService.HintSize="376,1604" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="RegistrantsDataTable" />
       <Variable x:TypeArguments="x:String" Name="RegistrantsFilePath" />
-      <Variable x:TypeArguments="x:String" Name="DownloadsFolder" />
-      <Variable x:TypeArguments="x:String" Name="OutgoingFolder" />
-      <Variable x:TypeArguments="x:String" Name="EmailRecipients" />
       <Variable x:TypeArguments="si:FileInfo" Name="RegistrantsExcelFile" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
@@ -78,19 +93,6 @@
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <ui:ReportStatus DisplayName="Report Status Process Started" sap:VirtualizedContainerService.HintSize="334,66" sap2010:WorkflowViewState.IdRef="ReportStatus_1" StatusText="[&quot;Registration processing sequence starting. Obtaining user input.&quot;]" />
-    <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke Get User Input" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_7" UnSafe="False" WorkflowFileName="GetUserInput.xaml">
-      <ui:InvokeWorkflowFile.Arguments>
-        <OutArgument x:TypeArguments="x:String" x:Key="out_DownloadFolder">
-          <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="DownloadsFolder" />
-        </OutArgument>
-        <OutArgument x:TypeArguments="x:String" x:Key="out_OutgoingFolder">
-          <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="OutgoingFolder" />
-        </OutArgument>
-        <OutArgument x:TypeArguments="x:String" x:Key="out_EmailRecipients">
-          <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="EmailRecipients" />
-        </OutArgument>
-      </ui:InvokeWorkflowFile.Arguments>
-    </ui:InvokeWorkflowFile>
     <ui:LogMessage DisplayName="Log Message Incoming Folder" sap:VirtualizedContainerService.HintSize="334,91" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info" Message="[&quot;Incoming: &quot; + DownloadsFolder + &quot; Outgoing: &quot; + OutgoingFolder + &quot; Email: &quot; + EmailRecipients]" />
     <ui:ReportStatus DisplayName="Report Status ACME Logging" sap:VirtualizedContainerService.HintSize="334,66" sap2010:WorkflowViewState.IdRef="ReportStatus_2" StatusText="[&quot;Logging into the ACME website.&quot;]" />
     <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke Log into ACME" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_6" UnSafe="False" WorkflowFileName="LogIntoACME.xaml">
@@ -101,43 +103,32 @@
     <ui:ReportStatus DisplayName="Report Status Downlading File" sap:VirtualizedContainerService.HintSize="334,66" sap2010:WorkflowViewState.IdRef="ReportStatus_3" StatusText="[&quot;Downloading latest registration file.&quot;]" />
     <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke Download New Registrants Excel File" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_8" UnSafe="False" WorkflowFileName="DownloadNewRegistrantsExcelFile.xaml">
       <ui:InvokeWorkflowFile.Arguments>
-        <InArgument x:TypeArguments="x:String" x:Key="in_DownloadsFolder">
-          <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="DownloadsFolder" />
-        </InArgument>
-        <OutArgument x:TypeArguments="si:FileInfo" x:Key="out_RegistrantsFile">
-          <mva:VisualBasicReference x:TypeArguments="si:FileInfo" ExpressionText="RegistrantsExcelFile" />
-        </OutArgument>
-        <OutArgument x:TypeArguments="sd:DataTable" x:Key="out_dt_RegistrantsDataTable">
+        <InArgument x:TypeArguments="x:String" x:Key="in_DownloadsFolder">[DownloadsFolder]</InArgument>
+        <OutArgument x:TypeArguments="si:FileInfo" x:Key="out_RegistrantsFile">[RegistrantsExcelFile]</OutArgument>
+        <OutArgument x:TypeArguments="sd:DataTable" x:Key="out_dt_RegistrantsDataTable">[RegistrantsDataTable]</OutArgument>
+      </ui:InvokeWorkflowFile.Arguments>
+    </ui:InvokeWorkflowFile>
+    <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke CorrectBlankExcelFields workflow" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_9" UnSafe="False" WorkflowFileName="CorrectBlankExcelFields.xaml">
+      <ui:InvokeWorkflowFile.Arguments>
+        <InOutArgument x:TypeArguments="sd:DataTable" x:Key="io_RegistrantsDataTable">
           <mva:VisualBasicReference x:TypeArguments="sd:DataTable" ExpressionText="RegistrantsDataTable" />
-        </OutArgument>
+        </InOutArgument>
       </ui:InvokeWorkflowFile.Arguments>
     </ui:InvokeWorkflowFile>
     <ui:ReportStatus DisplayName="Report Status New Accounts" sap:VirtualizedContainerService.HintSize="334,66" sap2010:WorkflowViewState.IdRef="ReportStatus_4" StatusText="[&quot;Registering new accounts.&quot;]" />
     <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke Register New Accounts" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_5" UnSafe="False" WorkflowFileName="RegisterNewAccounts.xaml">
       <ui:InvokeWorkflowFile.Arguments>
-        <InArgument x:TypeArguments="sd:DataTable" x:Key="in_RegistrantsDataTable">
-          <mva:VisualBasicValue x:TypeArguments="sd:DataTable" ExpressionText="RegistrantsDataTable" />
-        </InArgument>
-        <InArgument x:TypeArguments="x:String" x:Key="in_OutgoingFolder">
-          <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="OutgoingFolder" />
-        </InArgument>
-        <InArgument x:TypeArguments="si:FileInfo" x:Key="in_RegistrantsExcelFile">
-          <mva:VisualBasicValue x:TypeArguments="si:FileInfo" ExpressionText="RegistrantsExcelFile" />
-        </InArgument>
+        <InArgument x:TypeArguments="sd:DataTable" x:Key="in_RegistrantsDataTable">[RegistrantsDataTable]</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_OutgoingFolder">[OutgoingFolder]</InArgument>
+        <InArgument x:TypeArguments="si:FileInfo" x:Key="in_RegistrantsExcelFile">[RegistrantsExcelFile]</InArgument>
       </ui:InvokeWorkflowFile.Arguments>
     </ui:InvokeWorkflowFile>
     <ui:ReportStatus DisplayName="Report Status Emailing" sap:VirtualizedContainerService.HintSize="334,66" sap2010:WorkflowViewState.IdRef="ReportStatus_5" StatusText="[&quot;Emailing status report.&quot;]" />
     <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke Send Outlook Email" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_4" UnSafe="False" WorkflowFileName="SendOutlookEmail.xaml">
       <ui:InvokeWorkflowFile.Arguments>
-        <InArgument x:TypeArguments="x:String" x:Key="in_EmailRecipients">
-          <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="EmailRecipients" />
-        </InArgument>
-        <InArgument x:TypeArguments="x:String" x:Key="in_OutgoingFolder">
-          <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="OutgoingFolder" />
-        </InArgument>
-        <InArgument x:TypeArguments="si:FileInfo" x:Key="in_RegistrantsExcelFile">
-          <mva:VisualBasicValue x:TypeArguments="si:FileInfo" ExpressionText="RegistrantsExcelFile" />
-        </InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_EmailRecipients">[EmailRecipients]</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_OutgoingFolder">[OutgoingFolder]</InArgument>
+        <InArgument x:TypeArguments="si:FileInfo" x:Key="in_RegistrantsExcelFile">[RegistrantsExcelFile]</InArgument>
       </ui:InvokeWorkflowFile.Arguments>
     </ui:InvokeWorkflowFile>
     <ui:LogMessage DisplayName="Log Message Workflow end" sap:VirtualizedContainerService.HintSize="334,91" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Trace" Message="[&quot;Workflow complete.&quot;]" />

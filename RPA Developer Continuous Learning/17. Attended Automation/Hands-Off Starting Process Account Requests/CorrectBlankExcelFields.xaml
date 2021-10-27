@@ -1,0 +1,214 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="CorrectBlankExcelFields" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ufa="clr-namespace:UiPath.Form.Activities;assembly=UiPath.Form.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="io_RegistrantsDataTable" Type="InOutArgument(sd:DataTable)" />
+  </x:Members>
+  <mva:VisualBasic.Settings>
+    <x:Null />
+  </mva:VisualBasic.Settings>
+  <sap:VirtualizedContainerService.HintSize>1208,1716</sap:VirtualizedContainerService.HintSize>
+  <sap2010:WorkflowViewState.IdRef>CorrectBlankExcelFields_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="30">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>Microsoft.VisualBasic.CompilerServices</x:String>
+      <x:String>UiPath.Form.Activities</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="28">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>UiPath.Mail</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>UiPath.Form.Activities</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap2010:Annotation.AnnotationText="Description:&#xA;1. Iterates through the DT rows.&#xA;2. If any cell in a row is blank, generates a UiPath form to ask the user for input.&#xA;3. Based on the evaluation and user action sets the entry status to Valid Entry, User Amended or User Rejected.&#xA;&#xA;Condition:&#xA;- The user is available to amend the fields with missing data." DisplayName="Correct Blank Excel Fields" sap:VirtualizedContainerService.HintSize="1178,1651" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="1136,91" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Trace" Message="[&quot;Looking for blank fields.&quot;]" />
+    <ui:ForEachRow CurrentIndex="{x:Null}" DataTable="[io_RegistrantsDataTable]" DisplayName="For Each Row in Registrants" sap:VirtualizedContainerService.HintSize="1136,1311" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+      <ui:ForEachRow.Body>
+        <ActivityAction x:TypeArguments="sd:DataRow">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="sd:DataRow" Name="row" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="1086,1163" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <If Condition="[(row.Item(&quot;First Name&quot;).ToString=&quot;&quot;) Or (row.Item(&quot;Last Name&quot;).ToString=&quot;&quot;) Or (row.Item(&quot;City, State, Zip&quot;).ToString=&quot;&quot;) Or (row.Item(&quot;Phone&quot;).ToString=&quot;&quot;) Or (row.Item(&quot;Email&quot;).ToString=&quot;&quot;) or (row.Item(&quot;Age&quot;).ToString=&quot;&quot;) Or (row.Item(&quot;Number of Dependents&quot;).ToString=&quot;&quot;)]" sap:VirtualizedContainerService.HintSize="1044,940" sap2010:WorkflowViewState.IdRef="If_1">
+              <If.Then>
+                <Sequence sap:VirtualizedContainerService.HintSize="695,782" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                  <Sequence.Variables>
+                    <Variable x:TypeArguments="x:String" Name="ButtonResult" />
+                  </Sequence.Variables>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="653,91" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;Blank field has been found.&quot;]" />
+                  <ufa:FormActivity CreateFormActivityFileName="{x:Null}" CreateFormActivityFilePath="{x:Null}" Dismissed="{x:Null}" FormFieldsInputData="{x:Null}" FormFieldsOutputData="{x:Null}" IconPath="{x:Null}" LocalCSSFilePath="{x:Null}" TimeoutInSeconds="{x:Null}" WindowPositionLeft="{x:Null}" WindowPositionTop="{x:Null}" CreateFormId="f8bdc3f1-a431-4cf7-883a-e99cb3e03c49" DisableMaximizeButton="False" DisableMinimizeButton="False" DisableSanitize="False" DisplayName="Remediate Data" FormHeight="650" FormSchema="%[{&quot;columns&quot;:[{&quot;components&quot;:[{&quot;html&quot;:&quot;&lt;figure class=\&quot;image image-style-align-left\&quot;&gt;&lt;img src=\&quot;data:image/png;base64,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\&quot;&gt;&lt;/figure&gt;&quot;,&quot;label&quot;:&quot;Content&quot;,&quot;refreshOnChange&quot;:false,&quot;key&quot;:&quot;content&quot;,&quot;type&quot;:&quot;content&quot;,&quot;input&quot;:false,&quot;tableView&quot;:false,&quot;hideOnChildrenHidden&quot;:false}],&quot;width&quot;:6,&quot;offset&quot;:0,&quot;push&quot;:0,&quot;pull&quot;:0,&quot;size&quot;:&quot;md&quot;},{&quot;components&quot;:[],&quot;width&quot;:6,&quot;offset&quot;:0,&quot;push&quot;:0,&quot;pull&quot;:0,&quot;size&quot;:&quot;md&quot;}],&quot;key&quot;:&quot;columns&quot;,&quot;type&quot;:&quot;columns&quot;,&quot;input&quot;:false,&quot;tableView&quot;:false,&quot;label&quot;:&quot;Columns&quot;},{&quot;tag&quot;:&quot;h2&quot;,&quot;refreshOnChange&quot;:true,&quot;content&quot;:&quot;Amend blank fields.&quot;,&quot;key&quot;:&quot;label&quot;,&quot;input&quot;:false,&quot;tableView&quot;:false,&quot;label&quot;:&quot;Label&quot;,&quot;type&quot;:&quot;label&quot;},{&quot;refreshOnChange&quot;:true,&quot;content&quot;:&quot;Please review the original documents and amend the missing field data. When you are done, press Submit. If the required data is not available, press Reject.&quot;,&quot;key&quot;:&quot;label1&quot;,&quot;input&quot;:false,&quot;tableView&quot;:false,&quot;label&quot;:&quot;Label&quot;,&quot;type&quot;:&quot;label&quot;},{&quot;columns&quot;:[{&quot;components&quot;:[{&quot;label&quot;:&quot;Record ID&quot;,&quot;disabled&quot;:true,&quot;tableView&quot;:true,&quot;key&quot;:&quot;recordId&quot;,&quot;type&quot;:&quot;textfield&quot;,&quot;input&quot;:true,&quot;hideOnChildrenHidden&quot;:false}],&quot;width&quot;:12,&quot;offset&quot;:0,&quot;push&quot;:0,&quot;pull&quot;:0,&quot;size&quot;:&quot;sm&quot;},{&quot;components&quot;:[{&quot;label&quot;:&quot;First Name&quot;,&quot;tableView&quot;:true,&quot;key&quot;:&quot;firstName&quot;,&quot;type&quot;:&quot;textfield&quot;,&quot;input&quot;:true,&quot;hideOnChildrenHidden&quot;:false}],&quot;width&quot;:6,&quot;offset&quot;:0,&quot;push&quot;:0,&quot;pull&quot;:0,&quot;size&quot;:&quot;sm&quot;},{&quot;components&quot;:[{&quot;label&quot;:&quot;Last Name&quot;,&quot;tableView&quot;:true,&quot;key&quot;:&quot;lastName&quot;,&quot;type&quot;:&quot;textfield&quot;,&quot;input&quot;:true,&quot;hideOnChildrenHidden&quot;:false}],&quot;size&quot;:&quot;sm&quot;,&quot;width&quot;:6,&quot;offset&quot;:0,&quot;push&quot;:0,&quot;pull&quot;:0},{&quot;components&quot;:[{&quot;label&quot;:&quot;City, State, Zip&quot;,&quot;tableView&quot;:true,&quot;key&quot;:&quot;city&quot;,&quot;type&quot;:&quot;textfield&quot;,&quot;input&quot;:true,&quot;hideOnChildrenHidden&quot;:false}],&quot;size&quot;:&quot;sm&quot;,&quot;width&quot;:6,&quot;offset&quot;:0,&quot;push&quot;:0,&quot;pull&quot;:0},{&quot;components&quot;:[{&quot;label&quot;:&quot;Phone&quot;,&quot;tableView&quot;:true,&quot;key&quot;:&quot;phone&quot;,&quot;type&quot;:&quot;textfield&quot;,&quot;input&quot;:true,&quot;hideOnChildrenHidden&quot;:false}],&quot;size&quot;:&quot;sm&quot;,&quot;width&quot;:6,&quot;offset&quot;:0,&quot;push&quot;:0,&quot;pull&quot;:0},{&quot;components&quot;:[{&quot;label&quot;:&quot;Email&quot;,&quot;tableView&quot;:true,&quot;key&quot;:&quot;email&quot;,&quot;type&quot;:&quot;textfield&quot;,&quot;input&quot;:true,&quot;hideOnChildrenHidden&quot;:false}],&quot;size&quot;:&quot;sm&quot;,&quot;width&quot;:6,&quot;offset&quot;:0,&quot;push&quot;:0,&quot;pull&quot;:0},{&quot;components&quot;:[{&quot;columns&quot;:[{&quot;components&quot;:[{&quot;label&quot;:&quot;Age&quot;,&quot;tableView&quot;:true,&quot;key&quot;:&quot;age&quot;,&quot;type&quot;:&quot;textfield&quot;,&quot;input&quot;:true,&quot;hideOnChildrenHidden&quot;:false}],&quot;width&quot;:6,&quot;offset&quot;:0,&quot;push&quot;:0,&quot;pull&quot;:0,&quot;size&quot;:&quot;sm&quot;},{&quot;components&quot;:[{&quot;label&quot;:&quot;Number of Dependents&quot;,&quot;tableView&quot;:true,&quot;key&quot;:&quot;dependents&quot;,&quot;type&quot;:&quot;textfield&quot;,&quot;input&quot;:true,&quot;hideOnChildrenHidden&quot;:false}],&quot;width&quot;:6,&quot;offset&quot;:0,&quot;push&quot;:0,&quot;pull&quot;:0,&quot;size&quot;:&quot;sm&quot;}],&quot;key&quot;:&quot;columns2&quot;,&quot;type&quot;:&quot;columns&quot;,&quot;input&quot;:false,&quot;tableView&quot;:false,&quot;label&quot;:&quot;Columns&quot;}],&quot;size&quot;:&quot;sm&quot;,&quot;width&quot;:6,&quot;offset&quot;:0,&quot;push&quot;:0,&quot;pull&quot;:0},{&quot;components&quot;:[{&quot;label&quot;:&quot;Submit&quot;,&quot;disableOnInvalid&quot;:true,&quot;tableView&quot;:false,&quot;key&quot;:&quot;submit&quot;,&quot;custom&quot;:&quot;instance.emit('executeDoBlock', instance.component);&quot;,&quot;type&quot;:&quot;button&quot;,&quot;input&quot;:true,&quot;hideOnChildrenHidden&quot;:false}],&quot;size&quot;:&quot;sm&quot;,&quot;width&quot;:2,&quot;offset&quot;:0,&quot;push&quot;:0,&quot;pull&quot;:0},{&quot;components&quot;:[{&quot;label&quot;:&quot;Reject&quot;,&quot;theme&quot;:&quot;danger&quot;,&quot;tableView&quot;:false,&quot;key&quot;:&quot;reject&quot;,&quot;custom&quot;:&quot;instance.emit('executeDoBlock', instance.component);&quot;,&quot;input&quot;:true,&quot;type&quot;:&quot;button&quot;,&quot;isResetData&quot;:false,&quot;hideOnChildrenHidden&quot;:false}],&quot;size&quot;:&quot;sm&quot;,&quot;width&quot;:2,&quot;offset&quot;:0,&quot;push&quot;:0,&quot;pull&quot;:0},{&quot;components&quot;:[],&quot;size&quot;:&quot;sm&quot;,&quot;width&quot;:8,&quot;offset&quot;:0,&quot;push&quot;:0,&quot;pull&quot;:0}],&quot;key&quot;:&quot;columns1&quot;,&quot;type&quot;:&quot;columns&quot;,&quot;input&quot;:false,&quot;tableView&quot;:false,&quot;label&quot;:&quot;Columns&quot;}]" FormTheme="{}{&quot;Activities&quot;:[&quot;FORMS&quot;],&quot;Id&quot;:&quot;100120&quot;,&quot;Name&quot;:&quot;Default&quot;,&quot;BaseCss&quot;:&quot;../../assets/css/themes/uipath.bootstrap.min.css&quot;,&quot;ImageSrc&quot;:&quot;../../assets/themeicons/uipath.png&quot;,&quot;OverrideCssUrl&quot;:&quot;../../assets/css/themes/uipath.custom.css&quot;,&quot;UserStyleOverrides&quot;:&quot;&quot;,&quot;Properties&quot;:&quot;&quot;,&quot;IsCustomTheme&quot;:false,&quot;Version&quot;:1,&quot;ThemeVersion&quot;:1}" FormTitle="AmendData" FormWidth="800" GenerateInputFields="False" sap:VirtualizedContainerService.HintSize="653,209" sap2010:WorkflowViewState.IdRef="FormActivity_1" IsReadOnly="False" MaxColumnsForSchemaGeneration="6" RunDoBlockFirst="False" RunInIsolatedMode="True" SelectedButton="[ButtonResult]" StartAsMinimized="False">
+                    <ufa:FormActivity.Body>
+                      <ActivityAction x:TypeArguments="scg:Dictionary(x:String, x:Object)">
+                        <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="200,83" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </Sequence>
+                      </ActivityAction>
+                    </ufa:FormActivity.Body>
+                    <ufa:FormActivity.DelayBody>
+                      <ActivityAction x:TypeArguments="scg:Dictionary(x:String, x:Object)">
+                        <Delay Duration="00:00:00.2500000" sap2010:WorkflowViewState.IdRef="Delay_1" />
+                      </ActivityAction>
+                    </ufa:FormActivity.DelayBody>
+                    <ufa:FormActivity.FormFieldsCollection>
+                      <InOutArgument x:TypeArguments="x:Object" x:Key="email">
+                        <mva:VisualBasicReference x:TypeArguments="x:Object" ExpressionText="row.Item(&quot;Email&quot;)" />
+                      </InOutArgument>
+                      <InOutArgument x:TypeArguments="x:Object" x:Key="firstName">
+                        <mva:VisualBasicReference x:TypeArguments="x:Object" ExpressionText="row.Item(&quot;First Name&quot;)" />
+                      </InOutArgument>
+                      <InOutArgument x:TypeArguments="x:Object" x:Key="lastName">
+                        <mva:VisualBasicReference x:TypeArguments="x:Object" ExpressionText="row.Item(&quot;Last Name&quot;)" />
+                      </InOutArgument>
+                      <InOutArgument x:TypeArguments="x:Object" x:Key="phone">
+                        <mva:VisualBasicReference x:TypeArguments="x:Object" ExpressionText="row.Item(&quot;Phone&quot;)" />
+                      </InOutArgument>
+                      <InOutArgument x:TypeArguments="x:Object" x:Key="age">
+                        <mva:VisualBasicReference x:TypeArguments="x:Object" ExpressionText="row.Item(&quot;Age&quot;)" />
+                      </InOutArgument>
+                      <InOutArgument x:TypeArguments="x:Object" x:Key="dependents">
+                        <mva:VisualBasicReference x:TypeArguments="x:Object" ExpressionText="row.Item(&quot;Number of Dependents&quot;)" />
+                      </InOutArgument>
+                      <InOutArgument x:TypeArguments="x:Object" x:Key="city">
+                        <mva:VisualBasicReference x:TypeArguments="x:Object" ExpressionText="row.Item(&quot;City, State, Zip&quot;)" />
+                      </InOutArgument>
+                      <InArgument x:TypeArguments="x:Object" x:Key="recordId">
+                        <mva:VisualBasicValue x:TypeArguments="x:Object" ExpressionText="row.Item(&quot;Entry No.&quot;)" />
+                      </InArgument>
+                    </ufa:FormActivity.FormFieldsCollection>
+                  </ufa:FormActivity>
+                  <If Condition="[ButtonResult = &quot;reject&quot;]" sap:VirtualizedContainerService.HintSize="653,310" sap2010:WorkflowViewState.IdRef="If_2">
+                    <If.Then>
+                      <Sequence sap:VirtualizedContainerService.HintSize="304,152" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <Assign sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_1">
+                          <Assign.To>
+                            <OutArgument x:TypeArguments="x:Object">[row.item("Status")]</OutArgument>
+                          </Assign.To>
+                          <Assign.Value>
+                            <InArgument x:TypeArguments="x:Object">["User Rejected"]</InArgument>
+                          </Assign.Value>
+                        </Assign>
+                      </Sequence>
+                    </If.Then>
+                    <If.Else>
+                      <Sequence sap:VirtualizedContainerService.HintSize="304,152" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <Assign sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_2">
+                          <Assign.To>
+                            <OutArgument x:TypeArguments="x:Object">[row.item("Status")]</OutArgument>
+                          </Assign.To>
+                          <Assign.Value>
+                            <InArgument x:TypeArguments="x:Object">["User Amended"]</InArgument>
+                          </Assign.Value>
+                        </Assign>
+                      </Sequence>
+                    </If.Else>
+                  </If>
+                </Sequence>
+              </If.Then>
+              <If.Else>
+                <Sequence sap:VirtualizedContainerService.HintSize="304,152" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <Assign sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_3">
+                    <Assign.To>
+                      <OutArgument x:TypeArguments="x:Object">[row.item("Status")]</OutArgument>
+                    </Assign.To>
+                    <Assign.Value>
+                      <InArgument x:TypeArguments="x:Object">["Valid Entry"]</InArgument>
+                    </Assign.Value>
+                  </Assign>
+                </Sequence>
+              </If.Else>
+            </If>
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="1044,91" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info" Message="[String.Format(&quot;{0} for {1}.&quot;, row(&quot;Status&quot;), row(&quot;Last Name&quot;))]" />
+          </Sequence>
+        </ActivityAction>
+      </ui:ForEachRow.Body>
+    </ui:ForEachRow>
+  </Sequence>
+</Activity>

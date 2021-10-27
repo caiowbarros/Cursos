@@ -2,6 +2,17 @@
   "Packages": [
     {
       "Package": {
+        "Id": "UiPath.Credentials.Activities",
+        "Version": "2.0.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Caio\\.nuget\\packages\\credentialmanagement/1.0.2\\lib/net35/CredentialManagement.dll",
+        "C:\\Users\\Caio\\.nuget\\packages\\uipath.credentials.activities/2.0.0\\lib/net461/UiPath.Credentials.Activities.dll"
+      ],
+      "Path": "C:\\Users\\Caio\\.nuget\\packages\\uipath.credentials.activities\\2.0.0"
+    },
+    {
+      "Package": {
         "Id": "UiPath.Excel.Activities",
         "Version": "2.9.3"
       },
@@ -127,7 +138,7 @@
         "C:\\Users\\Caio\\.nuget\\packages\\nlog/4.5.11\\lib/net45/NLog.dll",
         "C:\\Users\\Caio\\.nuget\\packages\\system.collections.immutable/1.5.0\\lib/netstandard2.0/System.Collections.Immutable.dll",
         "C:\\Users\\Caio\\.nuget\\packages\\system.io.abstractions/3.0.10\\lib/net40/System.IO.Abstractions.dll",
-        "C:\\Users\\Caio\\.nuget\\packages\\system.threading.tasks.dataflow/4.10.0\\lib/netstandard2.0/System.Threading.Tasks.Dataflow.dll",
+        "C:\\Users\\Caio\\.nuget\\packages\\system.threading.tasks.dataflow/5.0.0\\lib/net461/System.Threading.Tasks.Dataflow.dll",
         "C:\\Users\\Caio\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
         "C:\\Users\\Caio\\.nuget\\packages\\uipath/20.10.7585.27318\\lib/UiPath.Interop.dll",
         "C:\\Users\\Caio\\.nuget\\packages\\uipath.ocr.activities/2.4.0\\lib/net461/UiPath.OCR.Activities.Design.dll",
@@ -135,7 +146,7 @@
         "C:\\Users\\Caio\\.nuget\\packages\\uipath.ocr.activities/2.4.0\\lib/net461/UiPath.OCR.Core.dll",
         "C:\\Users\\Caio\\.nuget\\packages\\uipath.ocr.contracts/2.7.1\\lib/net461/UiPath.OCR.Contracts.dll",
         "C:\\Users\\Caio\\.nuget\\packages\\uipath.platform/20.10.4\\lib/net461/UiPath.Platform.dll",
-        "C:\\Users\\Caio\\.nuget\\packages\\uipath.telemetry.client/1.2.20\\lib/net461/TelemetryClient.dll",
+        "C:\\Users\\Caio\\.nuget\\packages\\uipath.telemetry.client/1.5.3\\lib/net461/TelemetryClient.dll",
         "C:\\Users\\Caio\\.nuget\\packages\\uipath.uiautomation.activities/20.10.6\\lib/net461/ActiproSoftware.DataGrid.Contrib.Wpf.dll",
         "C:\\Users\\Caio\\.nuget\\packages\\uipath.uiautomation.activities/20.10.6\\lib/net461/ActiproSoftware.Docking.Wpf.dll",
         "C:\\Users\\Caio\\.nuget\\packages\\uipath.uiautomation.activities/20.10.6\\lib/net461/ActiproSoftware.Editors.Wpf.dll",
@@ -169,14 +180,46 @@
     },
     {
       "Package": {
-        "Id": "UiPath.Credentials.Activities",
-        "Version": "2.0.0"
+        "Id": "UiPath.Form.Activities",
+        "Version": "1.7.1"
       },
       "Assemblies": [
-        "C:\\Users\\Caio\\.nuget\\packages\\credentialmanagement/1.0.2\\lib/net35/CredentialManagement.dll",
-        "C:\\Users\\Caio\\.nuget\\packages\\uipath.credentials.activities/2.0.0\\lib/net461/UiPath.Credentials.Activities.dll"
+        "C:\\Users\\Caio\\.nuget\\packages\\castle.core/4.3.1\\lib/net45/Castle.Core.dll",
+        "C:\\Users\\Caio\\.nuget\\packages\\namedpipewrapper/1.5.0\\lib/net40/NamedPipeWrapper.dll",
+        "C:\\Users\\Caio\\.nuget\\packages\\newtonsoft.json/11.0.2\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\Caio\\.nuget\\packages\\system.io.abstractions/3.0.10\\lib/net40/System.IO.Abstractions.dll",
+        "C:\\Users\\Caio\\.nuget\\packages\\system.runtime.compilerservices.unsafe/4.7.1\\lib/net461/System.Runtime.CompilerServices.Unsafe.dll",
+        "C:\\Users\\Caio\\.nuget\\packages\\system.threading.tasks.dataflow/5.0.0\\lib/net461/System.Threading.Tasks.Dataflow.dll",
+        "C:\\Users\\Caio\\.nuget\\packages\\system.threading.tasks.extensions/4.5.4\\lib/net461/System.Threading.Tasks.Extensions.dll",
+        "C:\\Users\\Caio\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
+        "C:\\Users\\Caio\\.nuget\\packages\\uipath.cefsharpbundle/1.6.0\\lib/net452/CefSharp.BrowserSubprocess.Core.dll",
+        "C:\\Users\\Caio\\.nuget\\packages\\uipath.cefsharpbundle/1.6.0\\lib/net452/CefSharp.Core.dll",
+        "C:\\Users\\Caio\\.nuget\\packages\\uipath.cefsharpbundle/1.6.0\\lib/net452/CefSharp.Core.Runtime.dll",
+        "C:\\Users\\Caio\\.nuget\\packages\\uipath.cefsharpbundle/1.6.0\\lib/net452/CefSharp.dll",
+        "C:\\Users\\Caio\\.nuget\\packages\\uipath.cefsharpbundle/1.6.0\\lib/net452/CefSharp.Wpf.dll",
+        "C:\\Users\\Caio\\.nuget\\packages\\uipath.cefsharpbundle/1.6.0\\lib/net452/chrome_elf.dll",
+        "C:\\Users\\Caio\\.nuget\\packages\\uipath.cefsharpbundle/1.6.0\\lib/net452/d3dcompiler_47.dll",
+        "C:\\Users\\Caio\\.nuget\\packages\\uipath.cefsharpbundle/1.6.0\\lib/net452/libcef.dll",
+        "C:\\Users\\Caio\\.nuget\\packages\\uipath.cefsharpbundle/1.6.0\\lib/net452/libEGL.dll",
+        "C:\\Users\\Caio\\.nuget\\packages\\uipath.cefsharpbundle/1.6.0\\lib/net452/libGLESv2.dll",
+        "C:\\Users\\Caio\\.nuget\\packages\\uipath.cefsharpbundle/1.6.0\\lib/net452/msvcp140.dll",
+        "C:\\Users\\Caio\\.nuget\\packages\\uipath.cefsharpbundle/1.6.0\\lib/net452/UiPath.CefSharpBundle.dll",
+        "C:\\Users\\Caio\\.nuget\\packages\\uipath.cefsharpbundle/1.6.0\\lib/net452/vcruntime140.dll",
+        "C:\\Users\\Caio\\.nuget\\packages\\uipath.cefsharpbundle/1.6.0\\lib/net452/swiftshader/libEGL.dll",
+        "C:\\Users\\Caio\\.nuget\\packages\\uipath.cefsharpbundle/1.6.0\\lib/net452/swiftshader/libGLESv2.dll",
+        "C:\\Users\\Caio\\.nuget\\packages\\uipath.form.activities/1.7.1\\lib/net461/UiPath.Callout.Activity.Design.dll",
+        "C:\\Users\\Caio\\.nuget\\packages\\uipath.form.activities/1.7.1\\lib/net461/UiPath.Callout.Activity.dll",
+        "C:\\Users\\Caio\\.nuget\\packages\\uipath.form.activities/1.7.1\\lib/net461/UiPath.Callout.dll",
+        "C:\\Users\\Caio\\.nuget\\packages\\uipath.form.activities/1.7.1\\lib/net461/UiPath.Form.Activities.Design.dll",
+        "C:\\Users\\Caio\\.nuget\\packages\\uipath.form.activities/1.7.1\\lib/net461/UiPath.Form.Activities.dll",
+        "C:\\Users\\Caio\\.nuget\\packages\\uipath.formactivitylibrary/1.7.1\\lib/net461/UiPath.Form.ActivityLibrary.dll",
+        "C:\\Users\\Caio\\.nuget\\packages\\uipath.formactivitylibrary/1.7.1\\lib/net461/UiPath.Form.dll",
+        "C:\\Users\\Caio\\.nuget\\packages\\uipath.formactivitylibrary/1.7.1\\lib/net461/UiPath.Form.Host.Local.dll",
+        "C:\\Users\\Caio\\.nuget\\packages\\uipath.formactivitylibrary/1.7.1\\lib/net461/UiPath.OutOfProcessUi.Common.dll",
+        "C:\\Users\\Caio\\.nuget\\packages\\uipath.formactivitylibrary.contracts/1.7.0\\lib/net461/UiPath.Form.ActivityLibrary.Contracts.dll",
+        "C:\\Users\\Caio\\.nuget\\packages\\uipath.telemetry.client/1.5.3\\lib/net461/TelemetryClient.dll"
       ],
-      "Path": "C:\\Users\\Caio\\.nuget\\packages\\uipath.credentials.activities\\2.0.0"
+      "Path": "C:\\Users\\Caio\\.nuget\\packages\\uipath.form.activities\\1.7.1"
     }
   ],
   "Conflicts": [],
@@ -218,6 +261,11 @@
     "BouncyCastle": {
       "Id": "BouncyCastle",
       "Version": "1.8.5",
+      "Dependencies": []
+    },
+    "Castle.Core": {
+      "Id": "Castle.Core",
+      "Version": "4.3.1",
       "Dependencies": []
     },
     "ClosedXML": {
@@ -629,6 +677,11 @@
       "Version": "7.10.6071",
       "Dependencies": []
     },
+    "NamedPipeWrapper": {
+      "Id": "NamedPipeWrapper",
+      "Version": "1.5.0",
+      "Dependencies": []
+    },
     "Newtonsoft.Json": {
       "Id": "Newtonsoft.Json",
       "Version": "11.0.2",
@@ -780,7 +833,7 @@
     },
     "System.Threading.Tasks.Dataflow": {
       "Id": "System.Threading.Tasks.Dataflow",
-      "Version": "4.10.0",
+      "Version": "5.0.0",
       "Dependencies": []
     },
     "System.Threading.Tasks.Extensions": {
@@ -801,6 +854,11 @@
     "UiPath": {
       "Id": "UiPath",
       "Version": "20.10.7585.27318",
+      "Dependencies": []
+    },
+    "UiPath.CefSharpBundle": {
+      "Id": "UiPath.CefSharpBundle",
+      "Version": "1.6.0",
       "Dependencies": []
     },
     "UiPath.Credentials.Activities": {
@@ -842,6 +900,71 @@
           "Item2": "[1.0.0, )"
         }
       ]
+    },
+    "UiPath.Form.Activities": {
+      "Id": "UiPath.Form.Activities",
+      "Version": "1.7.1",
+      "Dependencies": [
+        {
+          "Item1": "System.Runtime.CompilerServices.Unsafe",
+          "Item2": "[4.5.2, )"
+        },
+        {
+          "Item1": "UiPath.FormActivityLibrary",
+          "Item2": "[1.7.1, )"
+        },
+        {
+          "Item1": "Castle.Core",
+          "Item2": "[4.3.1, )"
+        },
+        {
+          "Item1": "System.Threading.Tasks.Extensions",
+          "Item2": "[4.5.1, )"
+        },
+        {
+          "Item1": "System.IO.Abstractions",
+          "Item2": "[3.0.10, )"
+        },
+        {
+          "Item1": "UiPath.Telemetry.Client",
+          "Item2": "[1.5.3, )"
+        }
+      ]
+    },
+    "UiPath.FormActivityLibrary": {
+      "Id": "UiPath.FormActivityLibrary",
+      "Version": "1.7.1",
+      "Dependencies": [
+        {
+          "Item1": "Newtonsoft.Json",
+          "Item2": "[11.0.2, )"
+        },
+        {
+          "Item1": "UiPath.FormActivityLibrary.Contracts",
+          "Item2": "[1.7.0, )"
+        },
+        {
+          "Item1": "NamedPipeWrapper",
+          "Item2": "[1.5.0, )"
+        },
+        {
+          "Item1": "System.Runtime.CompilerServices.Unsafe",
+          "Item2": "[4.5.2, )"
+        },
+        {
+          "Item1": "System.ValueTuple",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "UiPath.CefSharpBundle",
+          "Item2": "[1.6.0, )"
+        }
+      ]
+    },
+    "UiPath.FormActivityLibrary.Contracts": {
+      "Id": "UiPath.FormActivityLibrary.Contracts",
+      "Version": "1.7.0",
+      "Dependencies": []
     },
     "UiPath.Mail.Activities": {
       "Id": "UiPath.Mail.Activities",
@@ -1006,15 +1129,19 @@
     },
     "UiPath.Telemetry.Client": {
       "Id": "UiPath.Telemetry.Client",
-      "Version": "1.2.20",
+      "Version": "1.5.3",
       "Dependencies": [
         {
           "Item1": "Newtonsoft.Json",
-          "Item2": "[11.0.1, )"
+          "Item2": "[11.0.2, )"
         },
         {
           "Item1": "System.Threading.Tasks.Dataflow",
-          "Item2": "[4.10.0, )"
+          "Item2": "[5.0.0, )"
+        },
+        {
+          "Item1": "System.ValueTuple",
+          "Item2": "[4.5.0, )"
         }
       ]
     },
@@ -1129,6 +1256,16 @@
         "C:\\Users\\Caio\\.nuget\\packages\\bouncycastle\\1.8.5\\lib\\BouncyCastle.Crypto.dll"
       ],
       "Path": "C:\\Users\\Caio\\.nuget\\packages\\bouncycastle\\1.8.5"
+    },
+    {
+      "Package": {
+        "Id": "Castle.Core",
+        "Version": "4.3.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\Caio\\.nuget\\packages\\castle.core\\4.3.1\\lib\\net45\\Castle.Core.dll"
+      ],
+      "Path": "C:\\Users\\Caio\\.nuget\\packages\\castle.core\\4.3.1"
     },
     {
       "Package": {
@@ -1499,6 +1636,16 @@
     },
     {
       "Package": {
+        "Id": "NamedPipeWrapper",
+        "Version": "1.5.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Caio\\.nuget\\packages\\namedpipewrapper\\1.5.0\\lib\\net40\\NamedPipeWrapper.dll"
+      ],
+      "Path": "C:\\Users\\Caio\\.nuget\\packages\\namedpipewrapper\\1.5.0"
+    },
+    {
+      "Package": {
         "Id": "Newtonsoft.Json",
         "Version": "11.0.2"
       },
@@ -1653,12 +1800,12 @@
     {
       "Package": {
         "Id": "System.Threading.Tasks.Dataflow",
-        "Version": "4.10.0"
+        "Version": "5.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\Caio\\.nuget\\packages\\system.threading.tasks.dataflow\\4.10.0\\lib\\netstandard2.0\\System.Threading.Tasks.Dataflow.dll"
+        "C:\\Users\\Caio\\.nuget\\packages\\system.threading.tasks.dataflow\\5.0.0\\lib\\net461\\System.Threading.Tasks.Dataflow.dll"
       ],
-      "Path": "C:\\Users\\Caio\\.nuget\\packages\\system.threading.tasks.dataflow\\4.10.0"
+      "Path": "C:\\Users\\Caio\\.nuget\\packages\\system.threading.tasks.dataflow\\5.0.0"
     },
     {
       "Package": {
@@ -1692,6 +1839,19 @@
     },
     {
       "Package": {
+        "Id": "UiPath.CefSharpBundle",
+        "Version": "1.6.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Caio\\.nuget\\packages\\uipath.cefsharpbundle\\1.6.0\\lib\\net452\\CefSharp.Core.dll",
+        "C:\\Users\\Caio\\.nuget\\packages\\uipath.cefsharpbundle\\1.6.0\\lib\\net452\\CefSharp.Core.Runtime.dll",
+        "C:\\Users\\Caio\\.nuget\\packages\\uipath.cefsharpbundle\\1.6.0\\lib\\net452\\CefSharp.dll",
+        "C:\\Users\\Caio\\.nuget\\packages\\uipath.cefsharpbundle\\1.6.0\\lib\\net452\\CefSharp.Wpf.dll"
+      ],
+      "Path": "C:\\Users\\Caio\\.nuget\\packages\\uipath.cefsharpbundle\\1.6.0"
+    },
+    {
+      "Package": {
         "Id": "UiPath.Credentials.Activities",
         "Version": "2.0.0"
       },
@@ -1711,6 +1871,44 @@
         "C:\\Users\\Caio\\.nuget\\packages\\uipath.excel.activities\\2.9.3\\lib\\net461\\UiPath.Excel.dll"
       ],
       "Path": "C:\\Users\\Caio\\.nuget\\packages\\uipath.excel.activities\\2.9.3"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.Form.Activities",
+        "Version": "1.7.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\Caio\\.nuget\\packages\\uipath.form.activities\\1.7.1\\lib\\net461\\UiPath.Callout.Activity.Design.dll",
+        "C:\\Users\\Caio\\.nuget\\packages\\uipath.form.activities\\1.7.1\\lib\\net461\\UiPath.Callout.Activity.dll",
+        "C:\\Users\\Caio\\.nuget\\packages\\uipath.form.activities\\1.7.1\\lib\\net461\\UiPath.Callout.dll",
+        "C:\\Users\\Caio\\.nuget\\packages\\uipath.form.activities\\1.7.1\\lib\\net461\\UiPath.Form.Activities.Design.dll",
+        "C:\\Users\\Caio\\.nuget\\packages\\uipath.form.activities\\1.7.1\\lib\\net461\\UiPath.Form.Activities.dll"
+      ],
+      "Path": "C:\\Users\\Caio\\.nuget\\packages\\uipath.form.activities\\1.7.1"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.FormActivityLibrary",
+        "Version": "1.7.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\Caio\\.nuget\\packages\\uipath.formactivitylibrary\\1.7.1\\lib\\net461\\UiPath.Form.ActivityLibrary.dll",
+        "C:\\Users\\Caio\\.nuget\\packages\\uipath.formactivitylibrary\\1.7.1\\lib\\net461\\UiPath.Form.dll",
+        "C:\\Users\\Caio\\.nuget\\packages\\uipath.formactivitylibrary\\1.7.1\\lib\\net461\\UiPath.Form.Host.Local.dll",
+        "C:\\Users\\Caio\\.nuget\\packages\\uipath.formactivitylibrary\\1.7.1\\lib\\net461\\UiPath.OutOfProcessUi.Common.dll",
+        "C:\\Users\\Caio\\.nuget\\packages\\uipath.formactivitylibrary\\1.7.1\\lib\\net461\\UiPath.OutOfProcessUi.Host.WCF.exe"
+      ],
+      "Path": "C:\\Users\\Caio\\.nuget\\packages\\uipath.formactivitylibrary\\1.7.1"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.FormActivityLibrary.Contracts",
+        "Version": "1.7.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\Caio\\.nuget\\packages\\uipath.formactivitylibrary.contracts\\1.7.0\\lib\\net461\\UiPath.Form.ActivityLibrary.Contracts.dll"
+      ],
+      "Path": "C:\\Users\\Caio\\.nuget\\packages\\uipath.formactivitylibrary.contracts\\1.7.0"
     },
     {
       "Package": {
@@ -1783,12 +1981,12 @@
     {
       "Package": {
         "Id": "UiPath.Telemetry.Client",
-        "Version": "1.2.20"
+        "Version": "1.5.3"
       },
       "Assemblies": [
-        "C:\\Users\\Caio\\.nuget\\packages\\uipath.telemetry.client\\1.2.20\\lib\\net461\\TelemetryClient.dll"
+        "C:\\Users\\Caio\\.nuget\\packages\\uipath.telemetry.client\\1.5.3\\lib\\net461\\TelemetryClient.dll"
       ],
-      "Path": "C:\\Users\\Caio\\.nuget\\packages\\uipath.telemetry.client\\1.2.20"
+      "Path": "C:\\Users\\Caio\\.nuget\\packages\\uipath.telemetry.client\\1.5.3"
     },
     {
       "Package": {

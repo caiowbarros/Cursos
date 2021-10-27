@@ -10,7 +10,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1208,1301</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1208,1811</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>DownloadNewRegistrantsExcelFile_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="30">
@@ -76,18 +76,17 @@
       <AssemblyReference>UiPath.Mail</AssemblyReference>
       <AssemblyReference>UiPath.OCR.Activities.Design</AssemblyReference>
       <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
-      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="Description:&#xA;1. Navigates to the Downloads page.&#xA;2. Downloads the indicated Registrant Excel File.&#xA;3. Stores the file path.&#xA;4. Extracts the data to a datatable.&#xA;5. Adds the Status column to the DT.&#xA;&#xA;Condition:&#xA;- ACME is open in the Browser.&#xA;- Only one instance of ACME is open.&#xA;- The browser downloads the file to the location indicated by the user in GetUserInput.xaml.&#xA;- The download does not require another step after clicking the Download button." DisplayName="Download New Registrants Excel File" sap:VirtualizedContainerService.HintSize="476,1236" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="Description:&#xA;1. Navigates to the Downloads page.&#xA;2. Downloads the indicated Registrant Excel File.&#xA;3. Stores the file path.&#xA;4. Extracts the data to a datatable.&#xA;5. Adds the Status column to the DT.&#xA;&#xA;Condition:&#xA;- ACME is open in the Browser.&#xA;- Only one instance of ACME is open.&#xA;- The browser downloads the file to the location indicated by the user in GetUserInput.xaml.&#xA;- The download does not require another step after clicking the Download button." DisplayName="Download New Registrants Excel File" sap:VirtualizedContainerService.HintSize="590,1746" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,91" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Trace" Message="[&quot;Starting download new registrants excel file&quot;]" />
-    <TryCatch sap2010:Annotation.AnnotationText="If the download fails, the user will be prompted to recover manually so the registration workflow can resume." DisplayName="Try Catch - Excel Download Fails" sap:VirtualizedContainerService.HintSize="434,744" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="548,91" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Trace" Message="[&quot;Starting download new registrants excel file&quot;]" />
+    <TryCatch sap2010:Annotation.AnnotationText="If the download fails, the user will be prompted to recover manually so the registration workflow can resume." DisplayName="Try Catch - Excel Download Fails" sap:VirtualizedContainerService.HintSize="548,1269" sap2010:WorkflowViewState.IdRef="TryCatch_1">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
@@ -116,7 +115,7 @@
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click Data Set 1" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="Click_1" KeyModifiers="None" MouseButton="BTN_LEFT">
+                        <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click Data Set" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="Click_1" KeyModifiers="None" MouseButton="BTN_LEFT">
                           <ui:Click.CursorPosition>
                             <ui:CursorPosition Position="Center">
                               <ui:CursorPosition.OffsetX>
@@ -128,7 +127,7 @@
                             </ui:CursorPosition>
                           </ui:Click.CursorPosition>
                           <ui:Click.Target>
-                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="64403239-c4bd-48be-be1b-19c515a9b30e" InformativeScreenshot="7b47a191a5984cb3095d6e9354e1aff3" Selector="&lt;webctrl aaname='Data Set 1' parentid='pagetext' tag='A' /&gt;">
+                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="64403239-c4bd-48be-be1b-19c515a9b30e" InformativeScreenshot="d3027ef7056b21b461a94a1ddee3f014" Selector="&lt;webctrl aaname='Data Set 3' parentid='pagetext' tag='A' /&gt;">
                               <ui:Target.TimeoutMS>
                                 <InArgument x:TypeArguments="x:Int32" />
                               </ui:Target.TimeoutMS>
@@ -156,10 +155,10 @@
         </ui:BrowserScope>
       </TryCatch.Try>
       <TryCatch.Catches>
-        <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="400,540" sap2010:WorkflowViewState.IdRef="Catch`1_1">
+        <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="514,21" sap2010:WorkflowViewState.IdRef="Catch`1_1">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
-              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
               <x:Boolean x:Key="IsPinned">False</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
@@ -191,6 +190,6 @@
         </Catch>
       </TryCatch.Catches>
     </TryCatch>
-    <ui:AddDataColumn x:TypeArguments="x:Object" AllowDBNull="{x:Null}" AutoIncrement="{x:Null}" Column="{x:Null}" DefaultValue="{x:Null}" MaxLength="{x:Null}" Unique="{x:Null}" ColumnName="status" DataTable="[out_dt_RegistrantsDataTable]" DisplayName="Add Data Column" sap:VirtualizedContainerService.HintSize="434,22" sap2010:WorkflowViewState.IdRef="AddDataColumn`1_1" />
+    <ui:AddDataColumn x:TypeArguments="x:Object" AllowDBNull="{x:Null}" AutoIncrement="{x:Null}" Column="{x:Null}" DefaultValue="{x:Null}" MaxLength="{x:Null}" Unique="{x:Null}" ColumnName="status" DataTable="[out_dt_RegistrantsDataTable]" DisplayName="Add Data Column" sap:VirtualizedContainerService.HintSize="548,22" sap2010:WorkflowViewState.IdRef="AddDataColumn`1_1" />
   </Sequence>
 </Activity>
