@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Caio\\OneDrive - SMARTHIS CONSULTORIA EM TECNOLOGIA DA INFORMAÇÃO LTDA\\Cursos\\C# OOP + Projects\\6\\Vetores\\Exercício de fixação\\Exercício de fixação.csproj": {}
+    "D:\\Cursos\\C# OOP + Projects\\6\\Vetores\\Exercício de fixação\\Exercício de fixação.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Caio\\OneDrive - SMARTHIS CONSULTORIA EM TECNOLOGIA DA INFORMAÇÃO LTDA\\Cursos\\C# OOP + Projects\\6\\Vetores\\Exercício de fixação\\Exercício de fixação.csproj": {
+    "D:\\Cursos\\C# OOP + Projects\\6\\Vetores\\Exercício de fixação\\Exercício de fixação.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Caio\\OneDrive - SMARTHIS CONSULTORIA EM TECNOLOGIA DA INFORMAÇÃO LTDA\\Cursos\\C# OOP + Projects\\6\\Vetores\\Exercício de fixação\\Exercício de fixação.csproj",
+        "projectUniqueName": "D:\\Cursos\\C# OOP + Projects\\6\\Vetores\\Exercício de fixação\\Exercício de fixação.csproj",
         "projectName": "Exercício de fixação",
-        "projectPath": "C:\\Users\\Caio\\OneDrive - SMARTHIS CONSULTORIA EM TECNOLOGIA DA INFORMAÇÃO LTDA\\Cursos\\C# OOP + Projects\\6\\Vetores\\Exercício de fixação\\Exercício de fixação.csproj",
+        "projectPath": "D:\\Cursos\\C# OOP + Projects\\6\\Vetores\\Exercício de fixação\\Exercício de fixação.csproj",
         "packagesPath": "C:\\Users\\Caio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Caio\\OneDrive - SMARTHIS CONSULTORIA EM TECNOLOGIA DA INFORMAÇÃO LTDA\\Cursos\\C# OOP + Projects\\6\\Vetores\\Exercício de fixação\\obj\\",
+        "outputPath": "D:\\Cursos\\C# OOP + Projects\\6\\Vetores\\Exercício de fixação\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Caio\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

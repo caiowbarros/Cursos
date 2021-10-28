@@ -1,0 +1,16 @@
+D:\Cursos\C# OOP + Projects\6\Matrizes\Exercício de fixação\bin\Debug\net5.0\Exercício de fixação.exe
+D:\Cursos\C# OOP + Projects\6\Matrizes\Exercício de fixação\bin\Debug\net5.0\Exercício de fixação.deps.json
+D:\Cursos\C# OOP + Projects\6\Matrizes\Exercício de fixação\bin\Debug\net5.0\Exercício de fixação.runtimeconfig.json
+D:\Cursos\C# OOP + Projects\6\Matrizes\Exercício de fixação\bin\Debug\net5.0\Exercício de fixação.runtimeconfig.dev.json
+D:\Cursos\C# OOP + Projects\6\Matrizes\Exercício de fixação\bin\Debug\net5.0\Exercício de fixação.dll
+D:\Cursos\C# OOP + Projects\6\Matrizes\Exercício de fixação\bin\Debug\net5.0\ref\Exercício de fixação.dll
+D:\Cursos\C# OOP + Projects\6\Matrizes\Exercício de fixação\bin\Debug\net5.0\Exercício de fixação.pdb
+D:\Cursos\C# OOP + Projects\6\Matrizes\Exercício de fixação\obj\Debug\net5.0\Exercício de fixação.csproj.AssemblyReference.cache
+D:\Cursos\C# OOP + Projects\6\Matrizes\Exercício de fixação\obj\Debug\net5.0\Exercício de fixação.GeneratedMSBuildEditorConfig.editorconfig
+D:\Cursos\C# OOP + Projects\6\Matrizes\Exercício de fixação\obj\Debug\net5.0\Exercício de fixação.AssemblyInfoInputs.cache
+D:\Cursos\C# OOP + Projects\6\Matrizes\Exercício de fixação\obj\Debug\net5.0\Exercício de fixação.AssemblyInfo.cs
+D:\Cursos\C# OOP + Projects\6\Matrizes\Exercício de fixação\obj\Debug\net5.0\Exercício de fixação.csproj.CoreCompileInputs.cache
+D:\Cursos\C# OOP + Projects\6\Matrizes\Exercício de fixação\obj\Debug\net5.0\Exercício de fixação.dll
+D:\Cursos\C# OOP + Projects\6\Matrizes\Exercício de fixação\obj\Debug\net5.0\ref\Exercício de fixação.dll
+D:\Cursos\C# OOP + Projects\6\Matrizes\Exercício de fixação\obj\Debug\net5.0\Exercício de fixação.pdb
+D:\Cursos\C# OOP + Projects\6\Matrizes\Exercício de fixação\obj\Debug\net5.0\Exercício de fixação.genruntimeconfig.cache

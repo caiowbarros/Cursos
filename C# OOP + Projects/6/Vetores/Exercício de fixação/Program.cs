@@ -18,7 +18,48 @@ namespace Exercício_de_fixação
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            System.Console.WriteLine("Digite quantos estudantes irão alugar um quarto:");
+            int n = Convert.ToInt32(Console.ReadLine());
+
+            Quarto[] quartos = new Quarto[n];
+
+            for (int i = 0; i < n; i++) {
+                System.Console.WriteLine("Digite seu nome:");
+                string nome = Console.ReadLine();
+                System.Console.WriteLine("Digite seu email:");
+                string email = Console.ReadLine();
+                System.Console.WriteLine("Digite o número do quarto que deseja (0 a 9):");
+                int numero = Convert.ToInt32(Console.ReadLine());
+
+                quartos[i] = new Quarto(numero, nome, email);
+            }
+
+            System.Console.WriteLine("Quantos quartos serão alugados? " + n);
+
+            for (int i = 0; i < n; i++) {
+                System.Console.WriteLine("\nAluguel #" + (i+1) + ":");
+                System.Console.WriteLine("Nome: " + quartos[i].nomeEstudante);
+                System.Console.WriteLine("Email: " + quartos[i].email);
+                System.Console.WriteLine("Quarto: " + quartos[i].numQuarto);
+            }
+
+            Quarto[] quartosOrdenados = new Quarto[n];
+            int contador = 0;
+
+            for (int i = 0; i < 9; i++) {
+                for (int k = 0; k < n; k++) {
+                    if (i == quartos[k].numQuarto) {
+                        quartosOrdenados[contador] = quartos[k];
+                        contador++;
+                    }
+                }
+            }
+
+            System.Console.WriteLine("Quartos ocupados:");
+
+            for (int i = 0; i < n; i++) {
+                System.Console.WriteLine(quartosOrdenados[i].numQuarto + ": " + quartosOrdenados[i].nomeEstudante + ", " + quartosOrdenados[i].email);
+            }
         }
     }
 }
